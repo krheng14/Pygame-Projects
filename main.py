@@ -157,8 +157,8 @@ def main():
     player_vel = 10
     player_laser_vel = 8
     enemy_laser_vel = -2
-    main_font = pygame.font.SysFont("comicsans", 50) #size of the font = 50
-    lost_font = pygame.font.SysFont("comicsans", 50) #size of the font = 50
+    main_font = pygame.font.SysFont("comicsansms", 50) #size of the font = 50
+    lost_font = pygame.font.SysFont("comicsansms", 50) #size of the font = 50
 
     enemies = [] #define enemies as array of arbitrary data types
     wave_length = 5
@@ -256,9 +256,9 @@ def main():
         player.move_lasers(player_laser_vel, enemies)
 
 def main_menu():
-    title_font1 = pygame.font.SysFont("comicsans", 50)
-    title_font2 = pygame.font.SysFont("comicsans", 50)
-    title_font3 = pygame.font.SysFont("comicsans", 40)
+    title_font1 = pygame.font.SysFont("comicsansms", 50)
+    title_font2 = pygame.font.SysFont("comicsansms", 50)
+    title_font3 = pygame.font.SysFont("comicsansms", 40)
     run = True
     while run: #while run is true
         WIN.blit(BG,(0,0))
