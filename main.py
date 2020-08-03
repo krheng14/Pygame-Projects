@@ -78,7 +78,7 @@ class Ship: #Creating attributes to players, each player will store their own va
 
     def shoot(self):
         if self.cool_down_counter == 0:
-            laser = Laser(self.x+40, self.y+65, self.laser_img)
+            laser = Laser(self.x+40, self.y+65, self.laser_img) #adjust the start position of laser with respect to player or enemy mask.
             self.lasers.append(laser)
             self.cool_down_counter = 1
 
